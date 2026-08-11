@@ -47,8 +47,15 @@ export default function HomePage() {
 
         <div className="academic-card">
           <div className="student-block">
-            <span className="field-label">Estudiante</span>
-            <strong>Oziel Rodman Ramos Torrez</strong>
+            <span className="field-label">Estudiantes: </span>
+            <strong>
+            <ul>
+              <li>Alvaro Ariel Torrez Calle</li> 
+              <li>Rodny Gerald Siles Barrenechea</li>
+              <li>Luis Angel Paredes Torrez</li>
+              <li>Oziel Rodman Ramos Torrez</li>              
+            </ul>
+            </strong>
           </div>
           <div className="teacher-block">
             <span className="field-label">Docente</span>
