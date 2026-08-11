@@ -11,5 +11,5 @@ export default defineConfig({
     }),
   ],
 
-  base: '/network-tic-hub/',
+  base: '/tic-network-hub/',
 })
