@@ -1825,8 +1825,8 @@ strong {
 
 .org-bar {
   top: 26px;
-  right: 16.666%;
-  left: 16.666%;
+  right: calc((100% - 52px) / 6);
+  left: calc((100% - 52px) / 6);
   height: 1px;
   background: linear-gradient(90deg, rgba(85, 231, 255, 0.12), rgba(85, 231, 255, 0.45), rgba(85, 231, 255, 0.12));
 }
@@ -1837,9 +1837,11 @@ strong {
   height: 36px;
 }
 
-.org-drop-1 { left: 16.666%; }
+/* Los tres nodos forman una rejilla de 3 columnas con 26px de separación:
+   el centro de las columnas laterales cae en (100% - 2 * gap) / 6. */
+.org-drop-1 { left: calc((100% - 52px) / 6); }
 .org-drop-2 { left: 50%; }
-.org-drop-3 { left: 83.333%; }
+.org-drop-3 { right: calc((100% - 52px) / 6); }
 
 .org-node {
   display: flex;
