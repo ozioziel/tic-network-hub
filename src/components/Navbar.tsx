@@ -6,6 +6,7 @@ const links = [
   { to: '/', label: 'Inicio', end: true },
   { to: '/gestion-tecnologia', label: 'Gestión de Tecnología' },
   { to: '/ciencia-innovacion', label: 'Ciencia, Tecnología e Innovación' },
+  { to: '/organigrama', label: 'Organigrama de la Empresa' },
 ]
 
 export default function Navbar() {
